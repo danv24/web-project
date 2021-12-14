@@ -1,0 +1,41 @@
+/* conversation div */
+.conversation {
+  /* display flex because its horizontal */
+  display: flex;
+  /* items are placed center vertically */
+  align-items: center;
+  /* padding */
+  padding: 10px;
+  /* the curser is pointer */
+  cursor: pointer;
+  /* 20px margin top */
+  margin-top: 20px;
+}
+/* on hover change background color */
+.conversation:hover {
+  background-color: rgb(245, 243, 243);
+}
+/*img*/
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  /* makes the img rounded */
+  border-radius: 50%;
+  /* The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+  If we use object-fit: cover; the image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+ */
+  object-fit: cover;
+  /* margin right 20px */
+  margin-right: 20px;
+}
+/* user name font size */
+.conversationName {
+  font-weight: 500;
+}
+
+/* if screen is less the 768 px siplay none */
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}

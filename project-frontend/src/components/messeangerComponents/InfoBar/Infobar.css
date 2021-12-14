@@ -1,0 +1,33 @@
+.infoBar {
+
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #53a8b6;
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 101%;
+    color: white;
+   z-index: 1;
+  }
+
+ .leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+  
+.leave-btn:hover{
+border: solid white;
+} 

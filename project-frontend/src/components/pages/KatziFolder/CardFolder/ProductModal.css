@@ -1,0 +1,43 @@
+.title{
+    position: absolute;
+    display: inline;
+    font-size: 70px;
+  color: #53a8b6;
+  right: 5%;
+    
+}
+
+
+.stock-info h3{
+    font-size: 50px;
+    text-align: end;
+    color: #575151;
+}
+.stock-info h5{
+    color: #575151;
+    text-align: center;
+     margin-top: 10px;
+      font-size: 20px;
+     border:solid;
+     border-radius: 10%;
+
+}
+
+.img-div{
+    background-color: #e3e3e3;
+    height: 705px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon{
+    position: absolute;
+    left: 0%;
+    top: 0;
+}
+
+.modal{
+    padding: 0;
+}

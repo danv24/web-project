@@ -1,0 +1,16 @@
+.admin-title{
+    color:#53a8b6;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 80px;
+    font-size: 4rem;
+}
+
+
+.user-form-div{
+        display: flex;
+        justify-content:right;
+        margin-right: 60px;
+        margin-top: 30px;
+       
+    }

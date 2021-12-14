@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Secular One';
+    src: url('SecularOne-Regular.eot');
+    src: url('SecularOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SecularOne-Regular.woff2') format('woff2'),
+        url('SecularOne-Regular.woff') format('woff'),
+        url('SecularOne-Regular.ttf') format('truetype'),
+        url('SecularOne-Regular.svg#SecularOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

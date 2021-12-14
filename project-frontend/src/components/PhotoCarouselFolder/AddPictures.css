@@ -1,0 +1,58 @@
+.image-form-div{
+    display: flex;
+    justify-content:right;
+    margin-right: 60px;
+    margin-top: 30px;
+   
+}
+
+.image-form{
+    padding: 10px;
+    border: solid;
+}
+
+.img-edit{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.image-div{
+    display: flex;
+    height: 180px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 50px;
+    justify-content: right;
+
+}
+.delete-title{
+    text-align: right;
+    color: #53a8b6;
+    margin-right: 70px;
+}
+
+/* .content-div{
+    position: relative;
+    left: 57%;
+    height: 300px;
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin: 50px;
+    text-align: end;
+    background-color: #ececec;
+   
+} */
+
+
+.single-content{
+    border: solid white;
+    font-size: 20px;
+}
+
+.slider-div{
+    padding-bottom: 100px;
+}

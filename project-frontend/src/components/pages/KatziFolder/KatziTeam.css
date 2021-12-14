@@ -1,0 +1,6 @@
+/* css on the form div which changes the forms position on the screen */
+.form-div{
+    display: flex;
+    justify-content:right;
+    margin-right: 70px;
+}

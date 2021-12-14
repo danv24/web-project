@@ -1,0 +1,48 @@
+body{
+    background-color: #fafafa;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.pagetitle{
+    display: flex;
+    height: 40rem;
+    /*  align-items: center; aligns the items in the middle of the page vertically, the item needs to have a hight */
+    align-items: center;
+    /*  justify-content property defines how the browser distributes space between and around content items horizontally */
+    
+    justify-content: center;
+    font-size: 3rem;
+  color: #53a8b6;
+
+  }
+
+  .particles{
+      z-index: -10;
+  }
+
+  .App{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+  }
+
+  .page-title{
+    display: flex;
+    /*  align-items: center; aligns the items in the middle of the page vertically, the item needs to have a hight */
+    align-items: center;
+    /*  justify-content property defines how the browser distributes space between and around content items horizontally */
+    
+    justify-content: center;
+    font-size: 3rem;
+  color: #53a8b6;
+
+  }
+
+ 

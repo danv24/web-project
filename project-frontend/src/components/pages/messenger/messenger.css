@@ -1,0 +1,173 @@
+.messenger {
+  /* allows to not over flow the nav bar */
+  height: calc(100vh - 70px);
+  /* separeting the page horizontally */
+  display: flex;
+}
+
+/* the chat menu will take 3.5/12 of the page with */
+.chatMenu {
+  flex: 3.5;
+  margin-top: 80px;
+  /* border-right: solid; */
+  border-top: solid ;
+}
+
+/* the search input */
+.chatMenuInput {
+  /* width 90 % of the container */
+  width: 90%;
+  /* padding tp and buttom 10 px */
+  padding: 10px 0;
+  /* no border */
+  border: none;
+  /* border bottom */
+  border-bottom: 1px solid gray;
+}
+
+/* the chat box will take 5.5/12 of the page with */
+.chatBox {
+  flex: 5.5;
+}
+
+.messages-div{
+  margin-top: 20px;
+}
+
+.info-nav-div{
+  margin-bottom: 10px;
+}
+
+.chatBoxWrapper {
+  display: flex;
+  /* The flex-direction CSS property sets how flex items are placed 
+  flex-direction: column makes the items inside diplay from top to bottom
+  */
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* the messgaes div */
+.chatBoxTop {
+  /* takes 100 precent of its div */
+  height: 100%;
+  /* allowing scrollng to prevent overflowing the input */
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+
+/* the div of the text area and the bottom */
+.chatBoxBottom {
+  margin-top: 5px;
+  /* making the text area and the botton on the same line */
+  display: flex;
+  /* aligning the items center verticlly */
+  align-items: center;
+  /* spacing between the items horizontally */
+  justify-content: space-between;
+}
+
+/* text area */
+.chatMessageInput {
+  /* takes 80 % of its div width */
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+/* the chat input bottom */
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  /* rounding the botton */
+  border-radius: 5px;
+  /* on hover change the curser */
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+
+/* chat online div takes 3/12 of the page width */
+.chatOnline {
+  flex: 3;
+  position: relative;
+
+}
+
+/* styling and positinoing the group buttons */
+.add-chat-btn{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: #53a8b6;
+  cursor: pointer;
+  border: none;
+  padding: 30px 20px;
+  border-radius: 10%;
+}
+
+.add-chat-btn.top{
+  top:25%
+}
+.add-chat-btn:hover{
+  border-radius: 10%;
+  color: white;
+  background-color: #5dacbd;
+}
+
+.button-links{
+  text-decoration: none;
+}
+
+/* giving padding to and 100% hight to the div wrappers */
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+/* the css for the span that displays if there are no convesations open */
+.noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+  color: rgb(224, 220, 220);
+  cursor: default;
+  align-self: center;
+}
+
+.infoBar h3{
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .chatMenu {
+    flex: 1;
+  }
+
+  .chatMenuInput {
+    display: none;
+  }
+
+  .chatBox{
+    flex: 10;
+  }
+
+  .chatOnline{
+    flex: 1px;
+  }
+}
+
+.message-flow {
+  height: 600;
+  width: 400;
+  overflow: auto;
+  flex: auto;
+} 

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: local('Frank Ruhl Libre'), url(./fonts/FrankRuhlLibre-Light.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Rubik Beastly';
+    src: local('Rubik Beastly'), url(./fonts/RubikBeastly-Regular.ttf) format('truetype');
+  }
+
+  

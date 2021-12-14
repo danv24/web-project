@@ -1,0 +1,49 @@
+/* message div */
+.message {
+  /* display flex because its horizontal */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.messageTop{
+    display: flex;
+}
+
+/* the text message */
+.messageText{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #53a8b6;
+    color: white;
+    max-width: 300px;
+}
+
+/* the time the message was sent */
+.messageBottom{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.messageSender{
+    font-size: 14px;
+    color:#53a8b6;
+    font-weight: bold;
+    margin:0 7px;
+}
+
+/* our own messages */
+.message.own{
+    align-items: flex-end;
+}
+/* the text inside our own message */
+.message.own .messageText{
+    background-color: rgb(245, 241, 241);
+    color: black;
+}
+ 
+ .message-flow {
+    height: 600;
+    width: 400;
+    overflow: auto;
+    flex: auto;
+  } 

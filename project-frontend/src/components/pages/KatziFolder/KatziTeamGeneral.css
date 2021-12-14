@@ -1,0 +1,26 @@
+/* nav bar css  */
+.nav{
+    display: flex; 
+   justify-content:flex-end;
+   margin-bottom: 30px;
+   padding: 0 80px;
+   background-color: #53a8b6;
+   color: white;
+   height: 80px;
+   align-items: center;
+   
+   }
+/* link css inside the nav bar */
+   .link{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-left: solid;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+  /* specifing the order link to create a border that sperates the 2 links */
+  .order-link{
+    border-right: solid;
+  }

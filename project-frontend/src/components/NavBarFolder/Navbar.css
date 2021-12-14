@@ -1,0 +1,150 @@
+@import url(../../Bona_Nova/stylesheet.css);
+.navbar {
+  font-family: 'Bona Nova', serif;
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  /* the hight of the nav bar */
+  height: 120px;
+  /* display:flex Displays an element as a block-level flex container	
+, bring all the items inside the nav bar on the same line */
+  display: flex;
+  /* aligns the items in the navbar to the center */
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  /* font-family: 'Frank Ruhl Libre', serif; */
+  background-color: #fff;
+
+  
+  font-family: 'Bona Nova', serif;}
+
+.navbar-logo {
+  color: #53a8b6;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: start;
+    margin-right: 2rem;
+  }
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.user-portion{
+  color: #53a8b6;
+  border-bottom: dotted;
+  cursor: pointer;
+}
+
+.nav-links {
+  border-radius: 10%;
+  border-style: solid;
+  color: #53a8b6;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    /* hover effect */
+  background-color:#5585b5;
+  color: #fff;
+  border:solid #53a8b6;
+  border-radius: 4px;
+   /* the color appears as slowly on the screen as we set*/
+  transition: all 0.2s ease-out;
+}
+
+/* hamburger menu icons */
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+/* styling the nav menu */
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+/* making the nav menu appear on click */
+  .nav-menu.active {
+    background: #5585b5;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+/* styling the nav links */
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    border: none;
+  }
+/* hover effect */
+  .nav-links:hover {
+    background-color: #5585b5;
+    border-radius: 0;
+  }
+
+  .nav-links{
+    font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bolder;
+  }
+  
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+  .nav-user{
+    color: #53a8b6;
+  }
+/*  styling the menu icon */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+/* the x icon */
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+
+ 
+}

@@ -1,0 +1,57 @@
+/* the absolute positioning makes the menu drop right below it parent (other pages),
+ the top:80px add 80 px margin from the top. the list-style: none; makes the list stay clean,
+text-align: start; aligns the thext from the left start in the menu
+ */
+.dropdown-menu {
+    width: 160px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: end;
+    z-index: 10;
+    background-color: #53a8b6;
+  }
+  .dropdown-menu.second {
+    width: 135px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: end;
+    z-index: 10;
+    background-color: #53a8b6;
+  }
+  /* li inside the dropdown menu, changing the color and seting the type of mouse cursor to pointer */
+  .dropdown-menu li {
+    color: #5585b5;
+    cursor: pointer;
+  }
+/* changes the color when the mouse hovers over the dropdown menu li */
+  .dropdown-menu li:hover {
+    background:#5585b5;
+  }
+
+  .dropdown-link:hover{
+    color: white;
+
+  }
+  /* hiding the menu when clicked */
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  /* display:block allows you to change the width and hight of the item, text-decoration: none; deletes the undeline */
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+  }
+  /* On screens that are 960px or less, hide the down arrow, 
+  screen - Used for computer screens, tablets, smart-phones etc.*/
+
+  @media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }

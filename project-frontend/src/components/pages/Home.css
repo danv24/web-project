@@ -1,0 +1,42 @@
+@import url(../../Secular_One1/stylesheet.css);
+
+.home-div{
+    background-color: white;
+}
+.home-title{
+    font-family: 'Secular One', sans-serif;
+    /* font-size: "extra bold"; */
+    color: #53a8b6;
+    margin-left: 50%;
+    /* margin-top: 7%;    */
+    font-size: 90px; 
+    font-weight: 900;
+
+}
+
+.test-title{
+     font-family: 'Redacted Script', cursive;  
+
+}
+
+.mountain-image{
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 160px; */
+    
+}
+
+.particles{
+    z-index: -10;
+    position:absolute;
+}
+.paricles-div{
+    position: absolute;
+    top: 21%;
+    left: 0%;
+    right: 0%;
+    /* bottom: 0%; */
+}

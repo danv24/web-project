@@ -1,0 +1,43 @@
+.second-page{
+    background-color:floralwhite;
+    margin-top: 70px;
+}
+
+.carousel-div{
+    
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5.2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  
+
+}
+.crousel-title{
+    font-family: 'Montserrat';
+    color: #53a8b6;
+    margin-left: 65%;
+    margin-bottom: 10%;
+    font-size: 90px; 
+
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide{
+    height: 30rem;
+   
+}
+
+.carousel-slider{
+    border-radius: 10%;
+
+}
+
+.control-arrow{
+padding: 10rem;
+}
+
